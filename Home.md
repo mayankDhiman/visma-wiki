@@ -9,7 +9,7 @@ Unfortunately, VisMa is still taking its baby steps hence a pre-compiled package
 It has some dependencies other than Python 2.7 and PyQt 4, like:
 Freeglut 3 (for OpenGL)
 
-PyFTGL (python wrapper for FTGL, it can be built using instructions on the [PyFTGL GitHub repo] (https://github.com/umlaeute/pyftgl) )
+PyFTGL (python wrapper for FTGL, it can be built using instructions on the [PyFTGL GitHub repo](https://github.com/umlaeute/pyftgl) )
 
 simplejson
 
