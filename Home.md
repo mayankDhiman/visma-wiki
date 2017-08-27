@@ -33,7 +33,9 @@ When you will open VisMa for the first time, you will see a window with an edita
 
 ### Normal Mode
 You can type in your input equation/expression in the input field (VisMa has support for only constant powers for now), 
+
 `e.g 2x^2/x + 5x^2 - 5 + x = 2 - x`
+
 and press the button Interaction mode, this will populate several buttons, like in this case, simplify, division, addition, subtraction and find roots. 
 If you press simplify, VisMa will simplify the equation to the simplest form, and show you the step by step animation with comments as to how that stage was achieved. The input area will also be replaced by the final stage i.e. the most simplified stage of the equation. 
 
