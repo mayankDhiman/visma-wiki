@@ -47,3 +47,6 @@ Finding roots only support, quadratic roots for now, and it will help you find t
 You can choose to solve only a part of the input equation/expression. To do this, select only the part of the equation/expression you want simplified, using your mouse cursor, and press interaction mode, and then use one of the available buttons. The buttons will perform the same task as specified above, but only for the selected part of the equation/expression.
 
 # Developer Manual
+There are comments at the start of each module which explains the utility of the module, comments are being added for each function as well. These comments will include, relevance, how it works, future vision.
+#### Note: 
+Please use tabs and not 4/8 spaces. Since Python is a language in which indentation is part of the syntax. We would want it to be consistent among all the developers. If you prefer using spaces, please use 8 spaces, as it will make it usable on terminal text editors like vim and nano. 
