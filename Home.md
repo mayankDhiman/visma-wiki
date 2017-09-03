@@ -1,5 +1,27 @@
 Welcome to the VisMa wiki! This wiki will be divided in 2 section, and will act as both the user guide and the development manual.
 
+# Current Capabilities
+
+Currently, VisMa supports:
+
+* Simplification of expression and equations. You can either choose to step by step perform each of the sub-function i.e. addition, subtraction, multiplication and division or choose to simplify the whole expression/equation at once.
+
+* Finding roots: You can find roots for a quadratic equation.
+
+* VisMa allows you to use interaction mode, in which you can select a part of your expression/equation and run any of the simplification functions above.
+
+Coming Soon:
+
+* Solve for: This feature will allow you to derive the equation for a variable from a given equation. e.g. from x + y = 1, we can get x = 1 - y or y = 1 - x
+
+* Integration: This feature will allow you to integrate an expression.
+
+Future Plans:
+
+* Differentiation: This feature will allow you to differentiate an expression.
+
+* Graph: This feature will allow you to get an interactive 2D or 3D graph, with equation of line or plane plotted on it, for better visualisation.
+
 # User Guide
 
 ## Installation and Running the program
@@ -48,5 +70,5 @@ You can choose to solve only a part of the input equation/expression. To do this
 
 # Developer Manual
 There are comments at the start of each module which explains the utility of the module, comments are being added for each function as well. These comments will include, relevance, how it works, future vision.
-#### Note: 
-Please use tabs and not 4/8 spaces. Since Python is a language in which indentation is part of the syntax. We would want it to be consistent among all the developers. If you prefer using spaces, please use 8 spaces, as it will make it usable on terminal text editors like vim and nano. 
+
+**Note**: Please use tabs and not 4/8 spaces. Since Python is a language in which indentation is part of the syntax. We would want it to be consistent among all the developers. If you prefer using spaces, please use 8 spaces, as it will make it usable on terminal text editors like vim and nano. 
