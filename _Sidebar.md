@@ -22,9 +22,9 @@
 ### [Dev Manual](https://github.com/aerospaceresearch/visma/wiki/DevMan)
 * [How it works](https://github.com/aerospaceresearch/visma/wiki/Working)
 * [Tests](https://github.com/aerospaceresearch/visma/wiki/Working)
+* [Dependencies](https://github.com/aerospaceresearch/visma/wiki/Dependencies)
 * [Contribute](https://github.com/aerospaceresearch/visma/wiki/Contribute)
 
 ### [Other](https://github.com/aerospaceresearch/visma/wiki/Other)
 * [Authors](https://github.com/aerospaceresearch/visma/wiki/Author)
 * [Credits](https://github.com/aerospaceresearch/visma/wiki/Credits)
-* [Dependencies](https://github.com/aerospaceresearch/visma/wiki/Dependencies)
