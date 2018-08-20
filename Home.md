@@ -1,6 +1,6 @@
 This is a quick guide for getting started with visma. To dive deeper into any specific topic, refer the respective page from the sidebar.
 
-### Contents
+## Contents
 
 - [About](#about)
 - [Installation](#installation)
@@ -9,19 +9,24 @@ This is a quick guide for getting started with visma. To dive deeper into any sp
 - [Developer Guide](#developer-guide)
 
 
-### About
+## About
 
 **VISualMAth** is an equation solver and visualizer, which aims to help in grasping how mathematical equations are transformed and solved. By this the threshold for obtaining deeper mathematical understanding can be reduced. The project aims to help people solve complex problems and learn. It can help students in learning concepts. It can be used as a simple day-to-day calculator or for double-checking the solution to problems.
 
 
-### Installation
+**NOTE:** VISualMAth is supported for **python3** and above only. The recommended installation method is through **pip**. Make sure to check if the pip exists in python3 library by checking the pip version.
 
-**NOTE:** VISualMAth is supported for python3 and above only. The recommended installation method is through pip/pip3.
+```shell
+$ pip --version
+```
+
+
+## Installation
 
 - To install do
 
 ```shell
-$ pip3 install visualmath
+$ pip install visualmath
 ```
 
 - For launching **visma** do
@@ -30,16 +35,17 @@ $ pip3 install visualmath
 $ visma
 ```
 
-**Note:** For windows user (and those for whom) the above launching option is not available, to launch **visma** GUI do
+**NOTE:** For windows user (and those for whom) the above launching option is not available, to launch **visma** GUI do
 
 ```shell
-$ python3
+$ python
 >>> from visma.main import initGUI
 >>> initGUI()
 ```
 
+For other installation methods check out the [install guide](https://github.com/aerospaceresearch/visma/wiki/Install).
 
-### Features:
+## Features:
 
 Currently, VisMa supports:
 
@@ -52,14 +58,14 @@ Currently, VisMa supports:
 * **Plot** -- This feature will allow you to get an interactive 2D or 3D graph, with equation of line or plane plotted on it, for better visualisation.
 
 
-### Using visma
+## Using visma
 
 Below is quick-demo of how to use **visma**.
 
 [[/assets/demo.gif]]
 
 
-### Developer Guide:
+## Developer Guide:
 
 For contributing to **visma** refer the [Developer Manual](https://github.com/aerospaceresearch/visma/wiki/Guidelines). If there are any issues or ideas they can be addressed through the [issues](https://github.com/aerospaceresearch/visma/issues) or in [chat room](https://gitter.im/aerospaceresearch/visma).
 
@@ -69,20 +75,11 @@ If **visma** is to be installed for development:
 - For installing dependencies, from source folder do
 
 ```shell
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 - For launching do
 
 ```shell
-$ python3 main.py
+$ python main.py
 ```
-
-**NOTE:** If using pip instead of pip3 for installing, make sure to check if the pip exists in python3 library by checking the pip version.
-
-```shell
-$ pip --version
-```
-
-
-## Work in Progress

@@ -1,21 +1,20 @@
-![visma](https://github.com/8hantanu/visma/blob/master/assets/visma.png)
+[[/assets/visma.png]]
 
 ### [visma](https://github.com/aerospaceresearch/visma) - VISual MAth
 
-#### Home
+### Home
 * [Quick Guide](https://github.com/aerospaceresearch/visma/wiki/Home)
 
-#### User Manual
+### User Manual
 * [Install](https://github.com/aerospaceresearch/visma/wiki/Install)
 * [Start](https://github.com/aerospaceresearch/visma/wiki/Start)
 * [Examples](https://github.com/aerospaceresearch/visma/wiki/Examples)
 
-#### Developer Manual
+### Developer Manual
 * [Guidelines](https://github.com/aerospaceresearch/visma/wiki/Guidelines)
 * [Tests](https://github.com/aerospaceresearch/visma/wiki/Tests)
 * [Dependencies](https://github.com/aerospaceresearch/visma/wiki/Dependencies)
-* [Contribute](https://github.com/aerospaceresearch/visma/wiki/Contribute)
 
-#### Other
+### Other
 * [Authors](https://github.com/aerospaceresearch/visma/wiki/Authors)
 * [License](https://github.com/aerospaceresearch/visma/wiki/LICENSE)
