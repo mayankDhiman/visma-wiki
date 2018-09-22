@@ -4,7 +4,7 @@
 $ pip --version
 ```
 
-To install visma the below three methods can be used. If installing visma for development go with method #3
+To install visma the below three methods can be used. If installing visma for development go with the last method.
 
 ## Installing using pip
 
