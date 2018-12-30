@@ -4,13 +4,15 @@ This is a brief guide on using **visma(VISualMAth)** and for making any contribu
 
 ### Currently, visma supports the following features
 
-* **Simplify** -- simplify the whole expression/equation or perform sub-function simplifications i.e. addition, subtraction, multiplication and division 
-* **Find roots** -- find roots for a quadratic equation
-* **Factorize** -- factorize a given polynomial
-* **Solve** -- solve the equation for a variable from a given equation, e.g. x + y = 1, solve for x or y gives x = 1 - y or y = 1 - x
-* **Integration** -- integrate a polynomial expression wrt a chosen variable
-* **Differentiation** -- differentiate a polynomial expression wrt a chosen variable
-* **Plot** -- plots an interactive 2D or 3D graph
+* **Simplify** - simplify the whole expression/equation or perform sub-function simplifications i.e. addition, subtraction, multiplication and division 
+* **Find roots** - find roots for a quadratic equation
+* **Factorize** - factorize a given polynomial
+* **Solve** - solve the equation for a variable from a given equation, e.g. x + y = 1, solve for x or y gives x = 1 - y or y = 1 - x
+* **Integration** - integrate a polynomial expression wrt a chosen variable
+* **Differentiation** - differentiate a polynomial expression wrt a chosen variable
+* **Plot** - plots an interactive 2D or 3D graph
+
+[[/assets/demo.gif]]
 
 ### If interested in making any contributions make sure to go through these steps
 
