@@ -24,7 +24,7 @@ This is a brief guide on using **visma(VISualMAth)** and for making any contribu
 
 ### How to contribute
 
-Go through the source code and use visma to get an idea of its working. Go through the visma/io/tokenize.py 
+Go through the source code and use visma to get an idea of its working.
 - Look for **TODOs**(simple tasks/features) and **FIXMEs**(mostly failing edge cases) throughout the code and try to strike them off
 - Fix already raised [issues](https://github.com/aerospaceresearch/visma/wiki/Install)
 - Add test cases to the relevant test modules for increasing code coverage through unit tests(coverage report can be viewed in htmlcov/index.html folder after running `./run test`)
