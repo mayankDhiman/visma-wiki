@@ -4,10 +4,10 @@ This is a brief guide on using **visma(VISualMAth)** and for making any contribu
 
 ### Currently, visma supports the following features
 
-* **Simplify** - simplify the whole expression/equation or perform sub-function simplifications i.e. addition, subtraction, multiplication and division 
+* **Simplify** - simplify the whole expression/equation or perform sub-simplifications i.e. addition, subtraction, multiplication and division 
 * **Find roots** - find roots for a quadratic equation
 * **Factorize** - factorize a given polynomial
-* **Solve** - solve the equation for a variable from a given equation, e.g. x + y = 1, solve for x or y gives x = 1 - y or y = 1 - x
+* **Solve** - solve the equation wrt a variable from a given equation, e.g. x^2 + y = 1, solve for x or y gives x = (1 - y)^0.5 or y = 1 - x^2
 * **Integration** - integrate a polynomial expression wrt a chosen variable
 * **Differentiation** - differentiate a polynomial expression wrt a chosen variable
 * **Plot** - plots an interactive 2D or 3D graph
@@ -17,14 +17,14 @@ This is a brief guide on using **visma(VISualMAth)** and for making any contribu
 ### If interested in making any contributions make sure to go through these steps
 
 - Clone/fork the **dev** branch of the repo.
-- Before [building from source](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#To-build-from-source) make sure to install all [dependencies](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Dependencies).
-- Make necessary changes(following the [syntax guide](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Syntax-guide).
-- Before making a PR or commit, run [all modules test](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Make-sure-all-tests-pass-before-making-a-PR).
-- If all tests pass, make a PR or merge to **dev** branch.
+- Before [building from source](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#To-build-from-source) make sure to install all [dependencies](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Dependencies)
+- Make necessary changes(following the [syntax guide](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Syntax-guide))
+- Before making a PR or commit, run [all modules test](https://github.com/aerospaceresearch/visma/wiki/Beginner's-Guide#Make-sure-all-tests-pass-before-making-a-PR)
+- If all tests pass, make a PR or merge to **dev** branch
 
 ### How to contribute
 
-Go through the source code and use visma to get an idea of its working.
+Go through the source code, use visma and checkout the io, simplify and solver modules to get an idea of its working.
 - Look for **TODOs**(simple tasks/features) and **FIXMEs**(mostly failing edge cases) throughout the code and try to strike them off
 - Fix already raised [issues](https://github.com/aerospaceresearch/visma/wiki/Install)
 - Add test cases to the relevant test modules for increasing code coverage through unit tests(coverage report can be viewed in htmlcov/index.html folder after running `./run test`)
