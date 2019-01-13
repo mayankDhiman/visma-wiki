@@ -1,10 +1,48 @@
+## Launching VisMa
+
+VisMa is currently available in two flavours (GUI and CLI)
+
 For launching **visma** do
 
 ```shell
 $ visma
 ```
 
-**NOTE:** For windows user (and those for whom) the above launching option is not available, to launch **visma** GUI do
+For entering GUI:
+
+```shell
+>>> gui
+```
+For using CLI you can straight start away by giving commands in following format:
+
+```shell
+>>> simplify(12x + 13x^2 + 12 - 10)
+INPUT: 12.0x + 13.0x^(2.0) + 12.0 - 10.0
+OPERATION: simplify
+OUTPUT: 12.0x + 13.0x^(2.0) + 2.0
+
+12.0x + 13.0x^(2.0) + 12.0 - 10.0
+
+12.0x + 13.0x^(2.0) + 2.0
+(Adding 12.0 and 10.0)
+
+>>> solve(x^2 - 1,x)
+INPUT: x^(2.0) - 1.0 = 0
+OPERATION: solve
+OUTPUT: x = ( + 1.0)^(0.5)
+
+x^(2.0) - 1.0 = 0
+
+x^(2.0) =  + 1.0
+(Moving -1.0 to RHS)
+
+x = ( + 1.0)^(0.5)
+(Therefore, x can be written as:)
+
+>>> exit
+```
+
+**NOTE:** For windows user (and those for whom) the above launching option is not available to launch **visma** GUI do:
 
 ```shell
 $ python
