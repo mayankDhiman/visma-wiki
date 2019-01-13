@@ -36,10 +36,16 @@ Go through the source code, use visma and checkout the io, simplify and solver m
 - [Download](https://github.com/aerospaceresearch/visma/archive/dev.zip) the source code zip
 - Extract files
 - From project folder, do `$ ./run install` or `$ pip install -r requirements.txt`(make sure to check if the pip exists in python3 library by checking the pip version, use `$ pip --version`)
-- For launching visma do
+- For launching visma:
+1. For GUI:
     ```bash
     $ python main.py
     >>> gui
+    ```
+2. For CLI: (Type commands in following format)
+    ```bash
+    $ python main.py
+    >>> solve(x^2 + 2x + 1,x)
     ```
 
 ### Dependencies
